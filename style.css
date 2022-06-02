@@ -3,13 +3,16 @@ body {
     margin: 0;
 }
 
+img {
+    width: 100%;
+}
+
 h1 {
     font-size: 50px;
 }
 
 h2 {
     font-size: 40px;
-    ;
 }
 
 .top-banner {
@@ -32,8 +35,12 @@ h2 {
     padding-left: 5%;
 }
 
-.half-width img {
+.half-width>img {
     width: 75%;
+}
+
+.profile-image {
+    margin-top: 50px;
 }
 
 .link-button {
